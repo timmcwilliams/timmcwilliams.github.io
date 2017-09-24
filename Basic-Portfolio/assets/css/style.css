@@ -18,8 +18,8 @@ body{
 }
 .container{
 	
-  	border:2px solid blue;
-  	box-sizing: auto;
+	border:2px solid blue;
+	box-sizing: auto;
 	float:left;
 	width:650px;
 	padding: 10px;
@@ -28,12 +28,12 @@ body{
 	/*margin-top:40px;*/
 	background: rgba(104, 99, 99, 0.01);
 
-  }
+}
 
 #main-bio {
 
-height:35px;
-width:500px;
+	height:35px;
+	width:500px;
 
 }
 
@@ -44,7 +44,7 @@ width:500px;
 	padding-right:11px;
 	padding-left:11px;
 	padding-bottom:11px;
-  
+	
 }
 #contact-info{
 	float:left;
@@ -58,17 +58,17 @@ width:500px;
 }
 
 footer{
-    background-color: #666666;
-    width:auto;
-    padding: 2px;
-    border: 1px solid navy;
-    margin: 5px;
-    border-radius: 5px;
-    text-align: center;
-    bottom: 0;
-    margin-bottom: 8px;
-  position:relative;
-   
+	background-color: #666666;
+	width:auto;
+	padding: 2px;
+	border: 1px solid navy;
+	margin: 5px;
+	border-radius: 5px;
+	text-align: center;
+	bottom: 0;
+	margin-bottom: 8px;
+	position:relative;
+	
 }
 
 .clear{
@@ -141,10 +141,10 @@ header{
 	font-size:28px;
 }
 #h2main{
-	  position: relative;
-  top: 20px;
-  left: 0px;
-  background: #4aaaa5;
+	position: relative;
+	top: 20px;
+	left: 0px;
+	background: #4aaaa5;
 	font-size: 24px;
 	font-family:arial, "helvitica neue", helvetica, sans-serif;
 	border:1px solid navy;
@@ -192,8 +192,8 @@ h3{
 	margin-left: 	3px;
 	border: 1px solid navy;
 	position: relative;
-  left: 0px;
-  background: #4aaaa5;
+	left: 0px;
+	background: #4aaaa5;
 	font-size: 24px;
 	font-family:arial, "helvitica neue", helvetica, sans-serif;
 	border:1px solid navy;
@@ -214,8 +214,8 @@ img{
 }
 .container1{
 	
-  	border:2px solid blue;
-  	box-sizing: auto;
+	border:2px solid blue;
+	box-sizing: auto;
 	float:left;
 	width:650px;
 	padding: 10px;
@@ -224,11 +224,11 @@ img{
 	/*margin-top:40px;*/
 	background: #ffffff;
 
-  }
+}
 .imagetext { 
-   position: relative; 
-   top: 0px; 
-   left: 0; 
-   width: 50%; 
+	position: relative; 
+	top: 0px; 
+	left: 0; 
+	width: 50%; 
 
 }
