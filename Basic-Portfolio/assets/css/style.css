@@ -1,0 +1,234 @@
+/*change from html to body*/
+html{
+	padding-top:1px;
+	background:#efefef;
+}
+
+body{
+	background:#e2dcdc;
+	font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	border:1px solid#666666;
+	padding:20px;
+	width:960px;
+	height:auto;
+	margin:0px auto;
+	border-margin:95%;
+
+
+}
+.container{
+	
+  	border:2px solid blue;
+  	box-sizing: auto;
+	float:left;
+	width:650px;
+	padding: 10px;
+	padding-top:0;
+	height:800px;
+	/*margin-top:40px;*/
+	background: rgba(104, 99, 99, 0.01);
+
+  }
+
+#main-bio {
+
+height:35px;
+width:500px;
+
+}
+
+#bio-image{
+	box-sizing: auto;
+	float:left;
+	width:270px;
+	padding-right:11px;
+	padding-left:11px;
+	padding-bottom:11px;
+  
+}
+#contact-info{
+	float:left;
+	border:2px solid blue;
+	padding: 10px;
+	margin-left: 28px;
+	width:221px;
+	margin-top: 62px;
+	background:#ffffff;
+
+}
+
+footer{
+    background-color: #666666;
+    width:auto;
+    padding: 2px;
+    border: 1px solid navy;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 8px;
+  position:relative;
+   
+}
+
+.clear{
+	clear:both;
+}
+h1{
+	color:#eee;
+	background: #4aaaa5;
+	font-size: 28px;
+	font-family:arial, "helvitica neue", helvetica, sans-serif;
+}
+span{
+	font-size: 24px;
+	font-family:arial, "helvitica neue", helvetica, sans-serif;
+}
+p{
+	color:#777777;
+	background-color: #ffffff;
+	padding-left: 5px;
+	line-height: 1.5em;
+
+}
+#headerl{
+	margin-left:72px;
+	width:214px;
+	float: left;
+	color:#ffffff;
+	border: 1px solid grey 
+	background: #4aaaa5;
+}
+#headerr{
+	margin-right: 10px;
+	float:right;
+	width:280px;
+	border: 1px solid navy;
+	background: #e2dcdc;
+}
+
+#about{
+	clear:both;
+	margin-left: 10px;
+	float:left;
+	border: 1px solid navy;
+	font-size:14px;
+	color: #d21034;
+
+
+}
+#portfolio{
+	margin-left:10px;
+	float:left;
+	border: 1px solid navy;
+	font-size:14px;
+	color: #d21034;
+}
+#contact{
+	margin-left:10px;
+	float:left;
+	border: 1px solid navy;
+	font-size:14px;
+	color: #d21034;
+
+}
+header{
+	width:auto;
+	height:66px;
+	border:1px solid navy;
+	background: #e2dcdc;
+	/*color:#ffffff*/
+	font-size:28px;
+}
+#h2main{
+	  position: relative;
+  top: 20px;
+  left: 0px;
+  background: #4aaaa5;
+	font-size: 24px;
+	font-family:arial, "helvitica neue", helvetica, sans-serif;
+	border:1px solid navy;
+	color: #ffffff;
+	margin-left: 11px;
+	margin-top: 10px;
+	width:130px;
+	text-align: center;
+	
+}
+#twitter{
+	box-sizing: auto;
+	/*float:left;*/
+	width:50px;
+	padding-right:1px;
+	padding-left:1px;
+	padding-bottom:1px;
+}
+#linkedin{
+	box-sizing: auto;
+	/*float:left;*/
+	width:50px;
+	padding-right:1px;
+	padding-left:1px;
+	padding-bottom:1px;
+}
+#github{
+	box-sizing: auto;
+	/*float:left;*/
+	width:50px;
+	padding-right:1px;
+	padding-left:1px;
+	padding-bottom:1px;
+}
+#gmail{
+	box-sizing: auto;
+	/*float:left;*/
+	width:50px;
+	padding-right:1px;
+	padding-left:1px;
+	padding-bottom:1px;
+}
+/*start of new stuff for portfolio*/
+h3{
+	margin-left: 	3px;
+	border: 1px solid navy;
+	position: relative;
+  left: 0px;
+  background: #4aaaa5;
+	font-size: 24px;
+	font-family:arial, "helvitica neue", helvetica, sans-serif;
+	border:1px solid navy;
+	color: #ffffff;
+	margin-left: 11px;
+	margin-top: 10px;
+	width:130px;
+
+}
+img{
+	width:48%;
+	padding:5px;
+}
+.messagebox{
+	width:auto;
+	height:auto
+	padding:10px;
+}
+.container1{
+	
+  	border:2px solid blue;
+  	box-sizing: auto;
+	float:left;
+	width:650px;
+	padding: 10px;
+	padding-top:0;
+	height:800px;
+	/*margin-top:40px;*/
+	background: #ffffff;
+
+  }
+.imagetext { 
+   position: relative; 
+   top: 0px; 
+   left: 0; 
+   width: 50%; 
+
+}
