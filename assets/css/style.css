@@ -18,7 +18,7 @@ body{
 }
 .container{
 	
-  	border:2px solid blue;
+  
   	box-sizing: auto;
 	float:left;
 	width:650px;
@@ -48,7 +48,7 @@ width:500px;
 }
 #contact-info{
 	float:left;
-	border:2px solid blue;
+	
 	padding: 10px;
 	margin-left: 28px;
 	width:221px;
@@ -96,14 +96,14 @@ p{
 	width:214px;
 	float: left;
 	color:#ffffff;
-	border: 1px solid grey 
+	
 	background: #4aaaa5;
 }
 #headerr{
 	margin-right: 10px;
 	float:right;
 	width:280px;
-	border: 1px solid navy;
+	
 	background: #e2dcdc;
 }
 
@@ -111,7 +111,7 @@ p{
 	clear:both;
 	margin-left: 10px;
 	float:left;
-	border: 1px solid navy;
+	
 	font-size:14px;
 	color: #d21034;
 
@@ -120,14 +120,14 @@ p{
 #portfolio{
 	margin-left:10px;
 	float:left;
-	border: 1px solid navy;
+	
 	font-size:14px;
 	color: #d21034;
 }
 #contact{
 	margin-left:10px;
 	float:left;
-	border: 1px solid navy;
+	
 	font-size:14px;
 	color: #d21034;
 
@@ -135,7 +135,7 @@ p{
 header{
 	width:auto;
 	height:66px;
-	border:1px solid navy;
+	
 	background: #e2dcdc;
 	/*color:#ffffff*/
 	font-size:28px;
@@ -147,7 +147,7 @@ header{
   background: #4aaaa5;
 	font-size: 24px;
 	font-family:arial, "helvitica neue", helvetica, sans-serif;
-	border:1px solid navy;
+	
 	color: #ffffff;
 	margin-left: 11px;
 	margin-top: 10px;
@@ -196,7 +196,7 @@ h3{
   background: #4aaaa5;
 	font-size: 24px;
 	font-family:arial, "helvitica neue", helvetica, sans-serif;
-	border:1px solid navy;
+	
 	color: #ffffff;
 	margin-left: 11px;
 	margin-top: 10px;
@@ -214,7 +214,7 @@ img{
 }
 .container1{
 	
-  	border:2px solid blue;
+  	
   	box-sizing: auto;
 	float:left;
 	width:650px;
