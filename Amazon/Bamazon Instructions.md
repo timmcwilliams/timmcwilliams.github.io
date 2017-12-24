@@ -9,7 +9,7 @@ To run this program on your computer you will need to insure you install the req
 ## Starting the Program - 
 * Use the command node cli.js AFTER loading all the files in the git repo. You should also pre-populate your SQL Workbench by inserting the "schema - by cutting and pasting into the program.  Start a new tab by using the Ctrl-T and paste the schema into the WOrkbench file followed by mouse click on the lightning bolt to insert. 
 
-![snip1](/Capturescreen1.png)
+![snip1](Capturescreen1.PNG)
 
 
 * Included screenshots (or a video) of typical user flows through your application (for the customer and if relevant the manager/supervisor). This includes views of the prompts and the responses after their selection (for the different selection options)
