@@ -1,10 +1,10 @@
-# Node.js & MySQL
+# BAMAZON!
 
 ## Overview
 
-In this activity, I created an  Amazon-like storefront. The app will take in orders from customers and deplete stock from the store's inventory while tracking product sales across the store's departments and then summarizes of the highest-grossing departments in the store.
+For this class assigned activity, I created an  Amazon-like storefront. The app takes in orders from customers and deplete stock from the store's inventory while tracking product sales across the store's departments and then summarizes of the highest-grossing departments in the store.
 
-To run this program on your computer you will need to insure you install the required the MySQL and Inquirer npm packages in the directory that this is run in. 
+To run this program on your computer you will need to insure you install the required the MySQL and Inquirer npm packages in the directory that this is run in. The directory from github should take the node packages required using node and run accordingly. If not - please install the packages using npm install for inquirer and mySQL. 
 
 ## Starting the Program - 
 * Use the command node cli.js AFTER loading all the files in the git repo. You should also pre-populate your SQL Workbench by inserting the "schema - by cutting and pasting into the program.  Start a new tab by using the Ctrl-T and paste the schema into the WOrkbench file followed by mouse click on the lightning bolt to insert. 
@@ -12,22 +12,19 @@ To run this program on your computer you will need to insure you install the req
 ![snip1](Capturescreen1.PNG)
 
 
-* Included screenshots (or a video) of typical user flows through your application (for the customer and if relevant the manager/supervisor). This includes views of the prompts and the responses after their selection (for the different selection options)
+* Once the database is loaded with the pre data package the database is ready to use but you must be able to view your SQL Table using the Workbench - which you should update after running an update using the command (from the terminal "node cli.js").
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers/other developers in the future what you built and why, and to show how it works. 
-
-* Because screenshots (and well-written READMEs) are extremely important in the context of GitHub, this will be part of the grading.
 
 
 ## Instructions
 
-### Challenge #1: Customer View (Minimum Requirement)
+### Notes
 
-1. Create a MySQL Database called `bamazon`.
+1. The Databasse is called  `bamazon_db`.
 
-2. Then create a Table inside of that database called `products`.
+2. The table is called  `products`.
 
-3. The products table should have each of the following columns:
+3. The products table has the following columns:
 
    * item_id (unique id for each product)
 
@@ -39,28 +36,25 @@ To run this program on your computer you will need to insure you install the req
 
    * stock_quantity (how much of the product is available in stores)
 
-4. Populate this database with around 10 different products. (i.e. Insert "mock" data rows into this database and table).
+4. The database is populated with around 10 different mock products. (
 
-5. Then create a Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
+5. Start the Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. 
 
-6. The app should then prompt users with two messages.
+6. The app will then prompt you with two messages.
 
-   * The first should ask them the ID of the product they would like to buy.
-   * The second message should ask how many units of the product they would like to buy.
+   * The first will ask them the ID of the product they would like to buy.
+   * The second message should ask how many units of the product you would like to buy.
 
-7. Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
+7. Once you place the order, the app checks if the store has enough of the product to meet the your request.
 
-   * If not, the app should log a phrase like `Insufficient quantity!`, and then prevent the order from going through.
+   * If not, the app should will let you know.
 
-8. However, if your store _does_ have enough of the product, you should fulfill the customer's order.
-   * This means updating the SQL database to reflect the remaining quantity.
-   * Once the update goes through, show the customer the total cost of their purchase.
-
-- - -
-
-* If this activity took you between 8-10 hours, then you've put enough time into this assignment. Feel free to stop here -- unless you want to take on the next challenge.
+8. However, if store has enough of the product, your order will be placed 
+   * The SQL database will reflect the remaining quantity.
+   * The app will then show the you the total cost of your purchase.
 
 - - -
+
 
 ### Challenge #2: Manager View (Next Level)
 
@@ -133,18 +127,4 @@ To run this program on your computer you will need to insure you install the req
 
 - - -
 
-### Minimum Requirements
 
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
-
-- - -
-
-### One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-**Good Luck!**
-
-## Copyright
-
-Coding Boot Camp (C) 2016. All Rights Reserved.
