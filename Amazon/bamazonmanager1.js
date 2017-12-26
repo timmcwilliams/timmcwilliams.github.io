@@ -108,13 +108,13 @@ var menu = function () {
                             {
                                 name: "price",
                                 type: "input",
-                                message: "What would you like your selling price to be?"
-                                // validate: function (value) {
-                                //     if (isNaN(value) === false) {
-                                //         return true;
-                                //     }
-                                //     return false;
-                                // }
+                                message: "What would you like your selling price to be?",
+                                validate: function (value) {
+                                    if (isNaN(value) === false) {
+                                        return true;
+                                    }
+                                    return false;
+                                }
                             }
                         ])
                         .then(function (answerP) {
@@ -134,6 +134,11 @@ var menu = function () {
                                 });
                             });
                         }
+                        // end of add item function
+// ____________________________________________________________________________________________________________________________
+
+
+
                     });
                 });
             }
