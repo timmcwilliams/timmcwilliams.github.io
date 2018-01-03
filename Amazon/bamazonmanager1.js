@@ -24,7 +24,7 @@ var menu = function () {
         inquirer
             .prompt([
                 {
-                    type: "checkbox",
+                    type: "list",
 
                     message: "Scroll Down and Press the Spacebar when you have made your selection",
 
@@ -41,33 +41,38 @@ var menu = function () {
             .then(function (inquirerResponse) {
                 // for (i = 0; i < res.length; i++) {
                 //     console.log(res[i].item_id + " | " + res[i].product_name + " | " + res[i].stock_quantity + " | " + res[i].price);
+                var answer = inquirerResponse.userInput;
                 if (inquirerResponse.confirm) {
                     console.log("\nYou Picked line 1 " + inquirerResponse.userInput);
-                    var answer = inquirerResponse.userInput;
+                    console.log(answer);
                     // console.log("\nYou Picked line 2  " + inquirerResponse.userInput);
                 }
                 if (answer === "View Items") {
-                    console.log("Helloview");
-                    var view = answer;
-                    console.log(view);
+                    menu();
+                    // for (i = 0; i < res.length; i++) {
+                    //     console.log(res[i].item_id + " | " + res[i].product_name + " | " + res[i].stock_quantity + " | " + res[i].price);
+            
+                    //     console.log("____________________________________________");
+                    //     console.log("--------------------------------------------");
+                        
+                    // }
+                    
                 }
                 else if (answer == "Add Item") {
                     console.log("Hello Add");
-                    var add1 = answer;
-                    console.log(add1);
                     addProd();
+
                 }
                 else if (answer == "Look at Low Inventory") {
-                  
+                    console.log("hit it");
                     // var lookat = answer;
                     for (i = 0; i < res.length; i++) {
-                        if (res[i].stock_quantity <= 5) {
+                        if (res[i].stock_quantity <= 9) {
                             console.log(res[i].item_id + " | " + res[i].product_name + " | " + res[i].stock_quantity);
-                        }               
+                        }
                     }
                 }
                 else if (answer == "Add Inventory") {
-                    console.log("test line ");
                     var addinv = answer;
                     console.log(view);
                     addInv();
@@ -121,8 +126,7 @@ var menu = function () {
                 // ____________________________________________________________________________________________________________________________
                 //start of add inventory
                 function addInv() {
-                    console.log("looking");
-
+                    console.log("line 123");
                     // prompt for info about the item needing inventory - this is an update function
                     inquirer
                         .prompt([
@@ -144,34 +148,33 @@ var menu = function () {
                                 // }
                             }
                         ])
-                        
                         .then(function (answerI) {
-                            
                             // when finished prompting, insert a new item into the db with that info
                             connection.query("update products SET ? WHERE ?",
-                            [           
-                                {
-                                    stock_quantity: answerI.stockadd
-                                },
-                                {
-                                    item_id: answerI.item
-                                },
-                                // function (err) {
-                                //     if (err) throw err;
-                                //     console.log("Your item was added successfully!");
+                                [
+                                    {
+                                        stock_quantity: answerI.stockadd
+                                    },
+                                    {
+                                        item_id: answerI.item
+                                    },
+                                    // function (err) {
+                                    //     if (err) throw err;
+                                    //     console.log("Your item was added successfully!");
                                     // add();
-                                
-                            ])
+
+                                ])
+                            menu();    
                         });
-                    }
-                });
+                }
             });
-        }
-    
-                    
-  
+    });
+}
 
 
 
 
-    
+
+
+
+
