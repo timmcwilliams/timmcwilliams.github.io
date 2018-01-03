@@ -38,9 +38,10 @@ To run this program on your computer you will need to insure you install the req
 
 4. The database is populated with around 10 different mock products. (
 
-5. Start the Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. 
+5. Start the Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. On you terminal screen type node bamazonCustomer.js.  You may have to npm install on your machine the required dependency files such as npm install npm install mysql and npm install mysql.  You will also have to load the schema files into your mysql workbench by copying and passing in this order - creat banazon_db.sql and then adding values to the tables by importing the seed_bamazon_initialvalues.sql files.
 
-6. The app will then prompt you with two messages.
+
+6. After starting the program using "bamazonCustomer.js the app will then prompt you with two messages.
 
    * The first will ask them the ID of the product they would like to buy.
    * The second message should ask how many units of the product you would like to buy.
@@ -53,22 +54,23 @@ To run this program on your computer you will need to insure you install the req
    * The SQL database will reflect the remaining quantity.
    * The app will then show the you the total cost of your purchase.
 
+![snip2](nodescreen.PNG)
 - - -
 
 
-### Challenge #2: Manager View (Next Level)
+### Challenge #2: Manager View
 
-* Create a new Node application called `bamazonManager.js`. Running this application will:
+* I created a new Node application called `bamazonManager.js`. Running this application will:
 
   * List a set of menu options:
 
-    * View Products for Sale
+    * View Products for Sale Works.
     
     * View Low Inventory
     
-    * Add to Inventory
+    * Add to Inventory - Works
     
-    * Add New Product
+    * Add New Product - Not Working Yet
 
   * If a manager selects `View Products for Sale`, the app should list every available item: the item IDs, names, prices, and quantities.
 
@@ -80,9 +82,10 @@ To run this program on your computer you will need to insure you install the req
 
 - - -
 
-* If you finished Challenge #2 and put in all the hours you were willing to spend on this activity, then rest easy! Otherwise continue to the next and final challenge.
+* Still working on some of this code - had it and lost it and moved on.  Will look into what the deal is and might have it out on Wednesday night. 
 
 - - -
+### To Do
 
 ### Challenge #3: Supervisor View (Final Level)
 

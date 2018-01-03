@@ -85,25 +85,10 @@ var show = function () {
                 }    
                 readProducts();           
             });
+            
         });
+        
 }
 
-        //    readProducts();              
 
-// create markdowns 
-// left to do - update Sql 
-// total the price of their purchase
 
-// create managers view 
-// create supervisors view 
-              // function updateProducts() {
-                //     console.log("line 84");
-                //     connection.query(function(err) {        
-                //         if (err) throw err;
-                //         'UPDATE products SET stock_quantity = '+ newStockQuantity + ' WHERE item_id ='+itemid;
-                //         console.log("hello");
-                //         connection.query(function (err, res) {
-                //             if (err) throw err;
-                //             console.log(res.affectedRows + " record(s) updated");
-
-                // updateProducts();
